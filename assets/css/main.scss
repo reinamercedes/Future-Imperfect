@@ -1,0 +1,28 @@
+* {
+	font-family: 'Roboto';
+	color: #3D3C3C!important;
+}
+$gris-line: #E0E0E0;
+
+nav {
+	.navbar-header {
+		a {
+			border-right: 1px solid $gris-line;
+		}
+	}
+	.navbar-nav {
+		&:first-child {
+			a {
+				padding-top: 5px;
+			    padding-bottom: 5px;
+			    margin: 10px 0;
+			    border-right: 1px solid $gris-line;
+			}
+		}
+		&:nth-child(2) {
+			a {
+				border-left: 1px solid $gris-line;
+			}
+		}
+	}
+}
